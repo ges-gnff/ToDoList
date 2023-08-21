@@ -30,6 +30,9 @@
 		3123EB932A93500600D80B2A /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123EB922A93500600D80B2A /* ToDoListItemViewViewModel.swift */; };
 		3123EB952A93502100D80B2A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123EB942A93502100D80B2A /* RegisterView.swift */; };
 		3123EB972A93503100D80B2A /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123EB962A93503100D80B2A /* RegisterViewViewModel.swift */; };
+		3123EB992A937EC100D80B2A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123EB982A937EC100D80B2A /* HeaderView.swift */; };
+		3123EB9B2A938BCD00D80B2A /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123EB9A2A938BCD00D80B2A /* TLButton.swift */; };
+		3123EB9D2A93CD4800D80B2A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123EB9C2A93CD4800D80B2A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		3123EB922A93500600D80B2A /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		3123EB942A93502100D80B2A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		3123EB962A93503100D80B2A /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		3123EB982A937EC100D80B2A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3123EB9A2A938BCD00D80B2A /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		3123EB9C2A93CD4800D80B2A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,8 @@
 				3123EB802A934ECD00D80B2A /* LoginView.swift */,
 				3123EB942A93502100D80B2A /* RegisterView.swift */,
 				3123EB822A934F1400D80B2A /* ToDoListItemView.swift */,
+				3123EB982A937EC100D80B2A /* HeaderView.swift */,
+				3123EB9A2A938BCD00D80B2A /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +157,7 @@
 				3123EB632A93498100D80B2A /* Assets.xcassets */,
 				3123EB742A934B4B00D80B2A /* GoogleService-Info.plist */,
 				3123EB5F2A93498000D80B2A /* ToDoListApp.swift */,
+				3123EB9C2A93CD4800D80B2A /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -233,11 +242,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3123EB812A934ECD00D80B2A /* LoginView.swift in Sources */,
+				3123EB992A937EC100D80B2A /* HeaderView.swift in Sources */,
 				3123EB912A934FEF00D80B2A /* LoginViewViewModel.swift in Sources */,
 				3123EB972A93503100D80B2A /* RegisterViewViewModel.swift in Sources */,
 				3123EB832A934F1400D80B2A /* ToDoListItemView.swift in Sources */,
 				3123EB622A93498000D80B2A /* MainView.swift in Sources */,
 				3123EB8F2A934FDE00D80B2A /* NewItemViewViewModel.swift in Sources */,
+				3123EB9B2A938BCD00D80B2A /* TLButton.swift in Sources */,
 				3123EB7D2A934E9D00D80B2A /* ToDoListView.swift in Sources */,
 				3123EB852A934F7100D80B2A /* User.swift in Sources */,
 				3123EB932A93500600D80B2A /* ToDoListItemViewViewModel.swift in Sources */,
@@ -245,6 +256,7 @@
 				3123EB602A93498000D80B2A /* ToDoListApp.swift in Sources */,
 				3123EB8D2A934FCA00D80B2A /* ToDoListViewViewModel.swift in Sources */,
 				3123EB8B2A934FBE00D80B2A /* ProfileViewViewModel.swift in Sources */,
+				3123EB9D2A93CD4800D80B2A /* Extensions.swift in Sources */,
 				3123EB7F2A934EC100D80B2A /* NewItemView.swift in Sources */,
 				3123EB952A93502100D80B2A /* RegisterView.swift in Sources */,
 				3123EB892A934FB000D80B2A /* MainViewViewModel.swift in Sources */,
